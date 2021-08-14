@@ -145,7 +145,7 @@
 
 
      <!-- Card section -->
-     <section class="container">
+     <section class="container" id="card-section">
        <h1 class="my-5">shoes</h1>
 
        <div class="row gy-4">
@@ -156,8 +156,8 @@
               <h5 class="card-title">Supply 350</h5>
               <p class="card-text text-dark">Very good to wear shoes at a very comfortable price and good quality at low quality</p>
               <h3 class="mb-3">$120</h3>
-              <a href="#" class="btn border-0 text-white" style="background:linear-gradient(#FF589B
-              ,#FF136F)">Buy Now <span><i class="fas fa-angle-double-right"></i></span></a>
+              <a onclick="cal()" href="#" class="btn border-0 text-white" style="background:linear-gradient(#FF589B
+              ,#FF136F)"  >Buy Now <span><i class="fas fa-angle-double-right"></i></span></a>
             </div>
           </div>
          </div>
@@ -234,7 +234,18 @@
     </main>
 
 
-    
+    <!-- Subscribe Section -->
+    <section style="height: 300px;"
+    class="container panda-bg-info rounded-3 mb-5 bg-gradient d-flex justify-content-center align-items-center"
+    id="subscribe">
+    <div>
+        <h1>LET'S STAY IN TOUCH</h1>
+        <p>Get updates on sales specials and more</p>
+        <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <br>
+         <button type="button" disabled> Submit </button>
+    </div>
+</section>
    
 <p class="pb-5"></p>
 
@@ -246,6 +257,9 @@
 
  <!-- bootstrap javascript file -->
  <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+
+ <!-- added js file -->
+ <script src="Edit.js"></script>
 
 
 
